@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/AI-Powered-Conflict-Resolution-Mediator/static/css/main.f855e6bc.css",
+    "main.js": "/AI-Powered-Conflict-Resolution-Mediator/static/js/main.d05449bc.js",
+    "static/js/488.261d7ab8.chunk.js": "/AI-Powered-Conflict-Resolution-Mediator/static/js/488.261d7ab8.chunk.js",
+    "static/media/logo.svg": "/AI-Powered-Conflict-Resolution-Mediator/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/AI-Powered-Conflict-Resolution-Mediator/index.html",
+    "main.f855e6bc.css.map": "/AI-Powered-Conflict-Resolution-Mediator/static/css/main.f855e6bc.css.map",
+    "main.d05449bc.js.map": "/AI-Powered-Conflict-Resolution-Mediator/static/js/main.d05449bc.js.map",
+    "488.261d7ab8.chunk.js.map": "/AI-Powered-Conflict-Resolution-Mediator/static/js/488.261d7ab8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.d05449bc.js"
+  ]
+}
