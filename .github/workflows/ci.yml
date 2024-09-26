@@ -1,0 +1,34 @@
+name: CI
+
+on:
+  push:
+    branches:
+      - main  # Change this to the branch you want to deploy from
+  pull_request:
+    branches:
+      - main  # Run on pull requests to the main branch
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '18'  # Specify the Node.js version you want to use
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build the application
+        run: npm run build
+
+      - name: Deploy to GitHub Pages
+        run: npm run deploy
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Automatically provided by GitHub Actions
+
